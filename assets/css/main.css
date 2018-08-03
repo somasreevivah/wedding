@@ -631,12 +631,12 @@ input, select, textarea {
 			border-radius: 5px;
 			content: '';
 			display: block;
-			height: 100%;
+			height: auto;
 			left: 0;
 			opacity: 0.4;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			width: auto;
 		}
 
 		.image img {
