@@ -1138,6 +1138,7 @@ input, select, textarea {
 			background-image: url("../../images/bg.jpg");
 			background-position: center;
 			background-size: cover;
+                        opacity: 1;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
