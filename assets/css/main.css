@@ -639,7 +639,6 @@ input, select, textarea {
                         -o-background-size: contain;
 			top: 0;
 		        height: 100%;
-			width: 100%;
                         background-size: contain;
 		}
 
@@ -1136,7 +1135,6 @@ input, select, textarea {
 			background-position: center, center;
 			background-repeat: no-repeat;
                         height: 100%;
-                        width: 100%;
 			z-index: 2;
 		}
 
@@ -1153,7 +1151,6 @@ input, select, textarea {
 			background-position: center;
 			background-size: contain;
                         height: 100%;
-			width: 100%;
                         opacity: 1;
 			background-repeat: no-repeat;
 			z-index: 1;
