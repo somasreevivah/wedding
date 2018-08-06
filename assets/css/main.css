@@ -696,6 +696,7 @@ input, select, textarea {
 
 			.image.main {
 				margin: 2rem 0;
+				background-size: contain;
 			}
 
 		}
@@ -704,6 +705,7 @@ input, select, textarea {
 
 			.image.main {
 				margin: 1.5rem 0;
+				background-size: contain;
 			}
 
 		}
