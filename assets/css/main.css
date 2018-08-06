@@ -639,6 +639,7 @@ input, select, textarea {
                         -o-background-size: contain;
 			top: 0;
 		        height: 100%;
+			width: 100%;
                         background-size: contain;
 		}
 
@@ -1123,10 +1124,10 @@ input, select, textarea {
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
 			transition: background-color 2.5s ease-in-out;
-			-moz-transition-delay: 1.0s;
-			-webkit-transition-delay: 1.0s;
-			-ms-transition-delay: 1.0s;
-			transition-delay: 1.0s;
+			-moz-transition-delay: 2.0s;
+			-webkit-transition-delay: 2.0s;
+			-ms-transition-delay: 2.0s;
+			transition-delay: 2.0s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
 			background-size: contain;
                         webkit-background-size: contain;
@@ -1152,6 +1153,7 @@ input, select, textarea {
 			background-position: center;
 			background-size: contain;
                         height: 100%;
+			width: 100%;
                         opacity: 1;
 			background-repeat: no-repeat;
 			z-index: 1;
