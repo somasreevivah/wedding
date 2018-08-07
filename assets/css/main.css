@@ -626,7 +626,7 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
+			background-image: url("../../images/overlay_large.png");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 5px;
 			content: '';
@@ -642,7 +642,7 @@ input, select, textarea {
                         background-size: contain;
 		}
                 
-                @media screen and (max-width: 1024px) {
+                @media screen and (max-width: 720px) {
                     .image:before {
                          pointer-events: none;
                          background-image: url("../../images/overlay.png");
@@ -1148,7 +1148,7 @@ input, select, textarea {
 			-webkit-transition-delay: 2.0s;
 			-ms-transition-delay: 2.0s;
 			transition-delay: 2.0s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay_large.png");
 			background-size: contain;
                         webkit-background-size: contain;
                         -moz-background-size: contain;
@@ -1159,7 +1159,7 @@ input, select, textarea {
 			z-index: 2;
 		}
                 
-                    @media screen and (max-width: 1024px) {
+                    @media screen and (max-width: 720px) {
                         #bg:before {
                          -moz-transition: background-color 2.5s ease-in-out;
                          -webkit-transition: background-color 2.5s ease-in-out;
